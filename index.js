@@ -1,3 +1,3 @@
 console.log("Hey Baby!");
-
-const chalk = require("chalk");
+console.log(__dirname);
+console.log(path.join(__dirname,"../..index.js", "node"))
