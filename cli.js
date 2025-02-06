@@ -7,12 +7,7 @@
 
 const { program } = require('commander');
 const fs= require('fs');
-program
-  .option('--first')
-  .option('-s, --separator <char>')
-  .argument('<string>');
 
-program.parse();
 
 const options = program.opts();
 const limit = options.first ? 1 : undefined;
