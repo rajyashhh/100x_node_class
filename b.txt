@@ -1,0 +1,1 @@
+By default, a limbda is added in front of the dependecy version, it shows that if you delete the node modules folder in future, then the latest or better module will be downloaded by the default. If you remve that limbda sign from the depenecy, then it will bring the exact version of that dependency.
